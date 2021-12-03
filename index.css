@@ -1,0 +1,46 @@
+*{
+    font-family: Arial;
+}
+
+:root {
+    --bg: white;
+    --scheme1: black;
+    --scheme2: gray;
+    --scheme3: rgba(0, 0, 0, 0.2);
+
+}
+
+html, body{
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+}
+main{
+    text-align: center;
+}
+h1, #lightbulb{
+    font-size: 7em;
+    color: var(--bg);
+    text-shadow: 2px 2px 8px var(--scheme3);
+    margin: 0px;
+}
+#scheme{
+    margin: 5vh;
+}
+#scheme div{
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+}
+#scheme1{
+    background-color: var(--scheme1);
+}
+#scheme2{
+    background-color: var(--scheme2);
+}
+#scheme3{
+    background-color: var(--scheme3);
+}
